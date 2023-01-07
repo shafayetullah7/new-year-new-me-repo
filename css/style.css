@@ -2,6 +2,8 @@
     margin: 0;
     font-family: 'Prompt', sans-serif;
 }
+
+/* header begin */
 header{
     color: white;
     background-image: url('../images/banner/banner3.png');
@@ -34,6 +36,8 @@ header{
     color: #0061b0;
     background-color: white;
 }
+
+/*.secondary-btn is to be used in footer. here just to copy from .primary-btn */
 .secondary-btn{
     font-size: 1.2rem;
     font-weight: 700;
@@ -43,10 +47,13 @@ header{
     background-color: #0061b0;
     color: white;
 }
+/* header end */
 
 main{
     margin: 0 13rem;
 }
+
+/* failure section begin */
 .failure{
     display: flex;
     justify-content: space-between;
@@ -55,13 +62,11 @@ main{
     margin-top: 8rem;
 }
 .failure-img{
-    /* border: 1px solid black; */
     width: 150%;
 }
 .failure-img img{
     display: block;
     width: 100%;
-    /* width: ; */
 }
 .failure-content{
     padding-right: 8rem;
@@ -83,6 +88,10 @@ main{
     list-style-image: url('../images/icons/check3.svg');
     
 }
+/* failure section end */
+
+
+/* plan section begin */
 .plans{
     margin-top: 8rem;
 }
@@ -111,7 +120,60 @@ main{
     text-align: center;
     font-size: 1.5rem;
 }
-.call-me{
+/* plan section end */
+
+/* approach section begin */
+.my-approach{
+    margin: 8rem 0 8rem;
+    background-color: #e9e9e9;
+    border-radius: 15px;
+    padding: 2rem 0 4rem;
+}
+.my-approach-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.approaches{
+    display: flex;
+    justify-content: space-around;
+}
+.approach{
+    padding: 4rem;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem 1px gray;
+    /* color: #5b5b5b; */
+}
+.approach h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    /* color: #373737; */
+}
+.approach:nth-child(1){
+    background-color: #8c8c68;
+}
+.approach:nth-child(1) ul{
+    list-style-image: url('../images/icons/exclamation-15.png');
+}
+.approach:nth-child(2){
+    background-color: #a57777;
+}
+.approach:nth-child(2) ul{
+    list-style-image: url('../images/icons/no-entry.png');
+}
+.approach:nth-child(3){
+    background-color: rgb(110, 155, 110);
+}
+.approach:nth-child(3) ul{
+    list-style-image: url('../images/icons/check3.svg');
+}
+/* approach section end */
+
+
+/* call section begin */
+.call-now{
     margin: 7rem 0;
     background-image: url('../images/gradient1.png'), url('../images/watch.png');
     background-size: cover;
@@ -119,13 +181,16 @@ main{
     padding: 4rem;
     border-radius: 10px;
 }
-.call-me h2{
+.call-now h2{
     color: white;
     font-size: 2.5rem;
     padding-bottom: 1.5rem;
     padding-right: 50%;
 }
+/* call section end */
 
+
+/* footer begin */
 footer{
     background-color: #151617;
     padding: 8rem 14rem;
@@ -169,3 +234,4 @@ footer{
     margin-bottom: 1rem;
     color: white;
 }
+/* footer end */
