@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 header{
     color: white;
@@ -51,7 +51,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5rem;
+    gap: 7rem;
     margin-top: 8rem;
 }
 .failure-img{
@@ -64,7 +64,7 @@ main{
     /* width: ; */
 }
 .failure-content{
-    padding-right: 10rem;
+    padding-right: 8rem;
     padding-top: 10rem;
 }
 .failure-title{
