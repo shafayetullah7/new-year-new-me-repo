@@ -28,11 +28,20 @@ header{
 .primary-btn{
     font-size: 1.2rem;
     font-weight: 700;
-    padding: 1.2rem 1.4rem;
+    padding: 1.2rem 2rem;
     border-radius: 5px;
     border: none;
     color: #0061b0;
     background-color: white;
+}
+.secondary-btn{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1.2rem 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0061b0;
+    color: white;
 }
 
 main{
@@ -114,9 +123,49 @@ main{
     color: white;
     font-size: 2.5rem;
     padding-bottom: 1.5rem;
+    padding-right: 50%;
 }
 
 footer{
-    background-color: #2d3436;
-    padding: 10rem 13rem;
+    background-color: #151617;
+    padding: 8rem 14rem;
+    color: white;
+}
+.future-title{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content{
+    width: 45%;
+}
+.footer-content p{
+    margin-bottom: 1.5rem;
+}
+.social-media{
+    padding-top: 1rem;
+}
+.social-media img{
+    display: inline-block;
+    padding-right: 1.2rem;
+}
+.subscribe-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.email{
+    border: 1px solid white;
+    background-color: #151617;
+    font-size: 1.2rem;
+    padding: 1.3rem;
+    border-radius: 5px;
+    width: 90%;
+    display: block;
+    margin-bottom: 1rem;
+    color: white;
 }
