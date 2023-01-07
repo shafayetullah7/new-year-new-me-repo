@@ -31,18 +31,19 @@ header{
     padding: 1.2rem 1.4rem;
     border-radius: 5px;
     border: none;
-}
-.contact-btn{
     color: #0061b0;
+    background-color: white;
 }
+
 main{
-    margin: 8rem 13rem;
+    margin: 0 13rem;
 }
 .failure{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5rem;
+    margin-top: 8rem;
 }
 .failure-img{
     /* border: 1px solid black; */
@@ -62,15 +63,60 @@ main{
     font-weight: 700;
 }
 .failure-text{
-    color: gray;
+    color: #636363;
     line-height: 1.5rem;
     padding: 2rem 0 1rem;
 }
 .failure-list{
-    color: gray;
+    color: #636363;
     line-height: 1.8rem;
+    padding-left: 2rem;
+    list-style-image: url('../images/icons/check3.svg');
+    
 }
-.failure-list{
-    /* list-style-position:unset; */
-    padding-left: 1.2rem;
+.plans{
+    margin-top: 8rem;
+}
+.plans-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.plan-items{
+    display: flex;
+    justify-content: space-between;
+}
+.plan img{
+    display: block;
+    margin: 0 auto;
+}
+.plan h3{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.5rem 0 0.8rem;
+}
+.plan p{
+    color: #636363;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.call-me{
+    margin: 7rem 0;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    border-radius: 10px;
+}
+.call-me h2{
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+footer{
+    background-color: #2d3436;
+    padding: 10rem 13rem;
 }
