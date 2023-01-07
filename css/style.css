@@ -144,31 +144,26 @@ main{
     background-color: lightblue;
     border-radius: 10px;
     box-shadow: 0 0 1rem 1px gray;
-    /* color: #5b5b5b; */
 }
 .approach h3{
     font-size: 2rem;
     margin-bottom: 1rem;
-    /* color: #373737; */
 }
 .approach:nth-child(1){
     background-color: #8c8c68;
-}
-.approach:nth-child(1) ul{
     list-style-image: url('../images/icons/exclamation-15.png');
 }
+
 .approach:nth-child(2){
     background-color: #a57777;
-}
-.approach:nth-child(2) ul{
     list-style-image: url('../images/icons/no-entry.png');
 }
+
 .approach:nth-child(3){
     background-color: rgb(110, 155, 110);
-}
-.approach:nth-child(3) ul{
     list-style-image: url('../images/icons/check3.svg');
 }
+
 /* approach section end */
 
 
