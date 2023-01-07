@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    color: white;
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-content{
+    width: 30%;
+    text-align: right;
+    margin-right: 11rem;
+    margin-left: auto;
+    padding: 12rem 0 10rem;
+}
+.header-title{
+    font-size: 4rem;
+}
+.header-text{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-indent: 1.5rem;
+    padding: 2rem 0 2rem;
+}
+.primary-btn{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
